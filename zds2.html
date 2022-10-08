@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<style>
+  div {
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center; /*文本居中对齐*/
+    font-size: xx-large;
+    /* width: 50%; */
+  }
+
+  #menuDiv {
+    background-color: grey;
+  }
+
+  div span {
+    display: inline-block; /*只有这样，里面ul才会归属这个span区域*/
+    margin-left: 20px;
+    border: 1px solid blue;
+  }
+
+  span ul {
+    display: none;
+    list-style-type: none; /*无列表样式了*/
+    position: absolute;  /*只有absolute才会根据父区域定位并且独立显示*/
+    padding: 0;/*padding,margin为0，内容才会尽量靠左*/
+    margin: 0;
+    background-color: grey;
+    max-height: 200px; /*指定高度和overflow，让它自动增加滚动条*/
+    overflow: scroll;
+  }
+
+  div span:hover ul {
+    display: block; /*注意这里需要block和z-index设置*/
+    z-index: 10;  
+  }
+
+  div span:hover ul li:hover {
+    background-color: red;
+  }
+
+
+</style>
+</head>
+<body>
+<div>
+  JNA Examples  
+</div>
+<div id="menuDiv">
+  <span>
+    all
+    <ul>
+      <li> <a href="www.baidu.com"> all - 1</a></li>
+      <li> all - 2</li>
+      <li> all - 3</li>
+      <li> all - 4</li>
+      <li> all - 5</li>
+      <li> all - 6</li>      
+      <li> all - 7</li>      
+      <li> all - 8</li>      
+      <li> all - 9</li>            
+    </ul>
+  </span>
+  <span>
+    string
+    <ul>
+        <li> <a href="www.baidu.com"> string - 1</a></li>
+        <li> string - 2</li>
+        <li> string - 3</li>
+        <li> string - 4</li>
+        <li> string - 5</li>
+        <li> string - 6</li>      
+        <li> string - 7</li>      
+        <li> string - 8</li>      
+        <li> string - 9</li>            
+    </ul>
+  
+  </span>
+  <span>struct</span>
+  <span>point</span>
+  <span>
+    union
+    <ul>
+        <li> <a href="www.baidu.com"> union - 1</a></li>
+        <li> union - 2</li>
+        <li> union - 3</li>
+        <li> union - 4</li>
+        <li> union - 5</li>
+        <li> union - 6</li>      
+        <li> union - 7</li>      
+        <li> union - 8</li>      
+        <li> union - 9</li>            
+    </ul>
+  </span>
+  
+</div>
+  
+  <a href="index.html"> back to main page </a> 
+
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+
+<br>
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+
+<br>bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+
+<br>bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+
+<br>bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+
+<br>bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+
+<br>bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+
+<br>bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds bala zds 
+
+<br>
+</body>
+</html>
